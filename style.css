@@ -1,0 +1,22 @@
+.navbar-toggler:focus,
+.navbar-toggler:focus-visible {
+    outline: 2px solid hsl(0, 0%, 100%) !important; /* Forces a solid white outline */
+    outline-offset: 0px;
+    border-color: #ffffff !important; /* Forces the button border white */
+    box-shadow: none !important; /* Completely removes the default Bootstrap glow ring */
+}
+
+.carousel {
+    object-fit: cover;
+    height: auto;
+}
+.card {
+    height: auto;
+}
+
+.carousel-item {
+    height: vh;
+}
+.carousel slide {
+    position: relative;
+}
